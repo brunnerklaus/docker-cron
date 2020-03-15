@@ -1,0 +1,2 @@
+*/30 * * * * /sh-script.sh >> /var/log/cron.log
+*/5 * * * * /bash-script.sh >> /var/log/cron.log

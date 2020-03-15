@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  docker-cron:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: docker-cron:latest
+    hostname: docker-cron
+    container_name: docker-cron
+    volumes:
+      - ./scripts/:/scripts/
+      - ./install_crontab.txt:/install_crontab.txt
+    restart: always
