@@ -1,4 +1,8 @@
 # docker-cron
+========
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Run shell scripts as Cronjobs in single Docker container. You can define multiple shell scripts & crontabs. This supports both `sh` & `bash` shell.
 
 ### Add cron scripts
