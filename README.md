@@ -22,8 +22,8 @@ echo "This is a bash script, ran on $Date"
 - Define the crontabs for your scripts in `install_crontab.txt` file
 
 ```bash
-*/30 * * * * /sh-script.sh >> /var/log/cron.log
-*/5 * * * * /bash-script.sh >> /var/log/cron.log
+*/30 * * * * /scripts//sh-script.sh >> /var/log/cron.log
+*/5 * * * * /scripts/bash-script.sh >> /var/log/cron.log
 ```
 
 ### Using docker-compose
